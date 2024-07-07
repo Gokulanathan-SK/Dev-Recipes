@@ -1,0 +1,89 @@
+/* General Section */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.bgImage{
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* Header Section */
+sup{
+  font-size: 12px;
+}
+h1{
+  padding: 20px 30px;
+  font-size: 62px;
+  color: rgba(244, 106, 64, 0.817);
+  margin: 0;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+} 
+h2{
+  font-size: 58px;
+  padding: 20px 35px;
+  margin: 0;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+
+/* Main(Links) Section */
+li, a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+li{
+  padding: 10px 20px;
+  margin: 0 10px;
+  display: inline;
+  background-color: rgb(241, 141, 110);
+  border-radius: 7px;
+}
+li:hover, a:hover{
+  transition: background-color 0.25s;
+  background-color:rgb(224, 110, 76);
+  color: #000;
+}
+
+
+/* Footer Button Section */
+.github-button {
+  padding: 10px 20px;
+  background-color: #24292e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+.github-button svg{
+  fill: white;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: background-color 0.5s;
+}
+.github-button:hover{
+  background-color:rgb(241, 141, 110);
+  color: #24292e;
+  font-weight: 700;
+}
+.github-button:hover svg{
+  fill: #24292e;
+}
