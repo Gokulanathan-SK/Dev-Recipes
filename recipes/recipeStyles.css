@@ -1,0 +1,112 @@
+/* General Section */
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: blanchedalmond;
+  margin: 0;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 10rem;
+}
+
+/* Header Section */
+header{
+  height: 85px;
+  background-color: rgb(250, 211, 152);
+  margin-bottom: 50px;
+}
+
+.backButton{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  border: 1.5px solid #000;
+  background-color:rgb(250, 211, 152);
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.backButton:hover{
+  font-size: 14.5px;
+  padding: 10px 14px;
+  transition: 0.25s;
+  top: 18px;
+  left: 28px;
+}
+
+.recipeTopic{
+  text-align: center;
+  margin: 0;
+  padding: 12px 0;
+}
+
+/* Main Section */
+.container{
+  overflow: hidden;
+  padding: 10px 30px;
+}
+.section-1{
+  float: right;
+  width: 30rem;
+}
+.section-2{
+  float: left;
+  width: 50%;
+}
+
+.dosaImage{
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+
+
+.section-3{
+  padding: 10px 30px;
+  margin-top: -50px;
+}
+
+.section-4{
+  padding: 10px 30px;
+}
+
+
+
+
+/* Footer Button Section */
+.github-button {
+  padding: 10px 20px;
+  background-color: #24292e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  right: 40%;
+}
+.github-button svg{
+  fill: white;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: background-color 0.5s;
+}
+.github-button:hover{
+  background-color:#fff;
+  color: #24292e;
+  font-weight: 700;
+}
+.github-button:active{
+  background-color: rgb(250, 211, 152);
+}
+.github-button:hover svg{
+  fill: #24292e;
+}
