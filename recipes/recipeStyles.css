@@ -8,13 +8,13 @@ body{
   padding-bottom: 10rem;
 }
 
+
 /* Header Section */
 header{
   height: 85px;
   background-color: rgb(250, 211, 152);
   margin-bottom: 50px;
 }
-
 .backButton{
   position: absolute;
   top: 20px;
@@ -26,7 +26,6 @@ header{
   border-radius: 20px;
   cursor: pointer;
 }
-
 .backButton:hover{
   font-size: 14.5px;
   padding: 10px 14px;
@@ -34,17 +33,22 @@ header{
   top: 18px;
   left: 28px;
 }
-
 .recipeTopic{
   text-align: center;
   margin: 0;
   padding: 12px 0;
 }
 
+
 /* Main Section */
 .container{
   overflow: hidden;
   padding: 10px 30px;
+}
+.recipeImage{
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 .section-1{
   float: right;
@@ -54,25 +58,13 @@ header{
   float: left;
   width: 50%;
 }
-
-.dosaImage{
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
-}
-
-
-
 .section-3{
   padding: 10px 30px;
   margin-top: -50px;
 }
-
 .section-4{
   padding: 10px 30px;
 }
-
-
 
 
 /* Footer Button Section */
