@@ -80,8 +80,8 @@ header{
   transition: background-color 0.25s;
   position: absolute;
   bottom: 20px;
-  left: 40%;
-  right: 40%;
+  left: 40px;
+  margin: 20px auto;
 }
 .github-button svg{
   fill: white;
